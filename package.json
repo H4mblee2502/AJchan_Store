@@ -1,8 +1,8 @@
 {
   "name": "ajchan-store",
-  "homepage": "https://H4mblee2502.github.io/AJchan_Store",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://H4mblee2502.github.io/AJchan_Store",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
