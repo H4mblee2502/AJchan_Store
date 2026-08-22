@@ -1,5 +1,5 @@
 
-export const Product = [
+const Product = [
     /* Converse Brand Section */
     {
         title: "Chuck 70",
@@ -38,7 +38,7 @@ export const Product = [
         link: "https://www.converse.ph/con537084c-chuck-taylor-all-star-shoreline-women-white.html",
         url: "https://www.converse.ph/media/catalog/product/cache/3d45c019409e4e20f2cffb6f8fd4d334/0/8/0802-CON537084C000005-1.jpg",
     },
-    
+
     {
         title: "Chuck Taylor All Star",
         brand: "Converse",
@@ -49,7 +49,7 @@ export const Product = [
         colors: ["Black", "White"],
         shoes_style: "Mid Top",
         link: "https://www.converse.ph/conm9166c-chuck-taylor-all-star-low-unisex-black.html",
-        url: "https://www.converse.ph/media/catalog/product/cache/413a630f5fd2d12ac91941db8f599478/0/8/0802-CONM5039C00008H-1.jpg",
+        url: "https://www.converse.ph/media/catalog/product/cache/3d45c019409e4e20f2cffb6f8fd4d334/0/8/0802-CONM5039C00008H-1.jpg",
     },
 
     {
@@ -59,7 +59,7 @@ export const Product = [
         price: "4,295",
         gender: "Unisex",
         product_type: ["Lifestyle", "Walking"],
-        colors: ["Black"],
+        colors: "Black",
         shoes_style: "Mid Top",
         link: "https://www.converse.ph/cona19080c-chuck-taylor-all-star-throwback-low-men-black-vintage-white-black.html",
         url: "https://www.converse.ph/media/catalog/product/cache/3d45c019409e4e20f2cffb6f8fd4d334/0/8/0803-CONA19080C00510H-1.jpg",
@@ -166,7 +166,7 @@ export const Product = [
         colors: ["Pink", "Black", "Purple"],
         shoes_style: "Mid Top",
         link: "https://www.nike.com/ph/t/luka-5-luka-lifestyle-pf-basketball-shoes-DGKjPNHW/HV8087-002",
-        url: "https://parkaccess.com.ph/cdn/shop/files/AURORA_HV8087-003_PHCFH001-2000_640x_crop_center.jpg?v=1774623817",
+        url: "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6e3d41ca-6c61-4d51-88cd-e40573c79622/JORDAN+LUKA+5+PF.png",
     },
 
     {
@@ -298,7 +298,7 @@ export const Product = [
         colors: ["White", "Purple"],
         shoes_style: "Mid Top",
         link: "https://www.adidas.com.ph/adizero-dropset-pro-training-shoes/KK3070.html",
-        url: "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/dcd02537ca7c4248bc0d43415117e2c8_9366/ADIZERO_Dropset_Pro_Training_Shoes_White_KK1551_06_standard.jpg",
+        url: "https://assets.adidas.com/images/e_trim:EAEEEF/c_lpad,w_iw,h_ih/b_rgb:EAEEEF/w_180,f_auto,q_auto,fl_lossy,c_fill,g_auto/934e1724059c43deab533479606aa34e_9366/ADIZERO_Dropset_Pro_Training_Shoes_White_KK1555_HM1.jpg",
     },
 
     {
@@ -524,5 +524,5 @@ export const Product = [
     },
 ];
 
-
+export default Product;
 

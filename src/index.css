@@ -1,19 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@theme {
+  --font-poppins: 'Poppins', sans-serif;
+  --color-background: #F3F4F4;
+  --color-text: #0B0909;
 }
 
-:root {
-    --Poppins: 'Poppins', san-serif;
-    --background-color: #F3F4F4;
-    --text-color: #0B0909;
-
-}
 body {
-    font-family: var(--Poppins);
-    background-color: var(--background-color);
-    color: var(--text-color);
+  font-family: var(--font-poppins);
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+@layer components {
+    .header-link-hover {
+        @apply inline-flex gap-2 relative no-underline text-[#0B0909] font-medium tracking-normal transition-[letter-spacing,color] duration-300 ease-in-out hover:uppercase hover:tracking-[1px] after:content-[''] after:absolute after:w-full after:h-[2px] after:bottom-[-2px] after:left-0 after:bg-[#0B0909] after:scale-x-0 after:origin-bottom-right after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left
+    }
+    .wrapper-filter{
+        @apply pb-[1rem] border-b-2 border-[#0B0909]
+    }
+    .button-isHide {
+        @apply flex items-center justify-between w-full border-none cursor-pointer mt-[1rem]
+    }
+    .options {
+        @apply flex flex-col mt-[1rem]
+    }
+    .optionsColors {
+        @apply grid grid-cols-4 mt-1 gap-1
+    }
 }
